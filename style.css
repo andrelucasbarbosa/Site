@@ -23,15 +23,13 @@
     text-align: center;
 }
 
-.menu
-{
+.menu {
     grid-column: 1 / -1;
     padding: 5px;
 
 }
 
-.menu-ul
-{
+.menu-ul {
     display: flex;
     list-style: none;
     align-items: center;
@@ -49,19 +47,16 @@
     padding: 10px;
 }
 
-.footer
-{
-    padding: 10px;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+.footer {
+    padding: 30px;
+    position: static;
 }
 
-.footer-info
-{
+.footer-info {
     text-align: center;
     justify-items: space-between;
     grid-column: 1 / -1;
+    font-size: 14px;
 }
 
 li a {
