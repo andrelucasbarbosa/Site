@@ -21,6 +21,8 @@
     grid-column: 1 / -1;
     padding: 20px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
 }
 
 .menu {
@@ -30,12 +32,14 @@
 }
 
 .menu-ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
+    display: flex; /*Ativa o flexbox para organizar os elementos*/
+    list-style: none; /*Remove o marcador de lista*/
+    align-items: center; /*Alinha os itens individualmente ao centro*/
+    justify-content: space-evenly; /*Distribui todos os itens com o mesmo espaço entre eles e as bordas*/
+    flex-wrap: nowrap; /*Impede quebra de linha*/
+    flex-direction: row; /*Orienta a direção dos itens para a direita*/
+    width: 600px; /*Largura*/
+    margin: auto; /*Centraliza o container na página*/
 }
 
 
